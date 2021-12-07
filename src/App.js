@@ -1,25 +1,29 @@
 
 import './App.css';
-import data from './data'
+
 import Card from './components/Card'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import data from './data'
 
 
 function App() {
 
   let dataMap = data.map(item=>{
-    console.log(item)
-    let {title,price,coverImg,stats:{rating,reviewCount},location} = item
+    
+    
     return (
       
       <Card 
-      title = {title}
-      price = {price}
-      img = {coverImg}
-      rating = {rating}
-      reviewCount = {reviewCount}
-      location = {location}
+
+                key={item.id}
+                img={item.coverImg}
+                rating={item.stats.rating}
+                reviewCount={item.stats.reviewCount}
+                location={item.location}
+                title={item.title}
+                price={item.price}
+                openSpots={item.openSpots}
       
       />
     )
@@ -34,7 +38,7 @@ function App() {
       <Hero/>
         <div className="card-list">
 
-        {dataMap}
+          {dataMap}
 
         </div>
         
