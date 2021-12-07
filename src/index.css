@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+    
+    padding: 1.3em;
+    box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+    margin-bottom: 20px;
+}
+.main-container{
+    margin: 1.4em ;
+}
+.hero{
+    text-align: center;
+    padding:  2em;
+}
+
+.hero img{
+    margin: 20px 0;
+    
+}
+.hero h2 , .hero p{
+    margin: 20px auto;
+    margin-bottom: 20px;
+    line-height: 150%;
+    text-align: left;
+    
+    
+}
+.hero h2{
+    font-size: 4rem;
+    color: #000000;
+    max-width: 900px;
+    font-weight: 500;
+    
+}
+.hero p{
+    font-weight: 300;
+    color: #222222;
+    max-width: 900px;
+   
+}
+.cards{
+    display: flex;
+    
+}
+.card-single{
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1em;
+    
+}
+.card-img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: .5em;
+}
+.card-single p , .card-single span{
+    margin-bottom: .5em;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
