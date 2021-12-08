@@ -1,6 +1,6 @@
 # Getting Started 
 
-![Alt text](https://siasky.net/AABUVvniksK1nP9mkdSFJlHOaTQVd88aBNFER9SHDw9IAg?raw=false "Project Demo")
+![](project-demo.gif)
 
 
 
