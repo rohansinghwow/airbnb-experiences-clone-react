@@ -105,10 +105,26 @@ nav img{
     border-radius: 100px;
 }
 
-
+.card-rating{
+    border-bottom: 5px dashed rgb(211, 211, 211);
+}
+.card-para{
+    height: 62px;
+}
+span.rating{
+    color: rgb(77, 77, 77);
+}
+span.rating-country{
+    color: rgb(73, 68, 68);
+    font-weight: 600;
+}
+span.card-price{
+    color: rgb(107, 107, 107);
+}
 
 .card-rating, .card-details{
     padding: 1em;
+    font-weight: 400;
 }
 
 
