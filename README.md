@@ -1,5 +1,6 @@
 # Getting Started 
-![Alt text](https://siasky.net/AABUVvniksK1nP9mkdSFJlHOaTQVd88aBNFER9SHDw9IAg?raw=true "Project Demo ")
+
+![Alt text](https://siasky.net/AABUVvniksK1nP9mkdSFJlHOaTQVd88aBNFER9SHDw9IAg?raw=true "Project Demo")
 
 
 
