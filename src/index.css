@@ -23,7 +23,9 @@ nav img{
 }
 .hero{
     text-align: center;
-    padding:  2em;
+    margin-bottom: 30px;
+    margin-left: auto;
+    
 }
 
 .hero img{
@@ -33,10 +35,10 @@ nav img{
 
 }
 .hero h2 , .hero p{
-    margin: 20px auto;
-    margin-bottom: 20px;
     line-height: 150%;
+    padding: .4em;
     text-align: left;
+    
     
     
 }
