@@ -49,15 +49,19 @@ nav{
 }
 .cards{
     display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+
     
 }
 .card-single{
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 1em;
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
     
 }
 .card-img{
@@ -70,7 +74,6 @@ nav{
 }
 .cards-list {
   display: flex;
-  flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
 }
