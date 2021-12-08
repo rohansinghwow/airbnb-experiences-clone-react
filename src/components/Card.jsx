@@ -7,7 +7,12 @@ export default function Card(props){
         
 
         <div className="card-single">
+            <div className="img-div">
+
             <img src={props.img} className="card-img"/>
+
+            </div>
+           
             <div className="card-rating">
                 <span className="rating">{props.rating}({props.reviewCount}).</span>
                 <span className="rating-country">{props.location}</span>

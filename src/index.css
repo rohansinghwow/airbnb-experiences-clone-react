@@ -14,6 +14,10 @@ nav{
     box-shadow: 2px 4px 12px rgba(0,0,0,.08);
     margin-bottom: 20px;
 }
+nav img{
+    max-width: 100%;
+    height: 38px;
+}
 .main-container{
     margin: 1.4em ;
 }
@@ -24,7 +28,9 @@ nav{
 
 .hero img{
     margin: 20px 0;
-    
+    width: 80%;
+    height: auto;
+
 }
 .hero h2 , .hero p{
     margin: 20px auto;
@@ -45,35 +51,64 @@ nav{
     font-weight: 300;
     color: #222222;
     max-width: 900px;
+    font-size: 1.4rem;
    
 }
-.cards{
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    overflow-x: auto;
 
-    
-}
 .card-single{
-    width: 175px;
-    font-size: 12px;
+
+    width: 330px;
+    font-size: 1.3rem;
     flex: 0 0 auto;         /* ADD */
     display: flex;          /* ADD */
     flex-direction: column; /* ADD */
-    position: relative;
+    margin-bottom: 20px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     
 }
 .card-img{
     width: 100%;
     object-fit: cover;
     margin-bottom: .5em;
+    
+    height: 280px;
 }
 .card-single p , .card-single span{
     margin-bottom: .5em;
+    
 }
-.cards-list {
+.card-list {
   display: flex;
   gap: 20px;
   overflow-x: auto;
+  margin-bottom: 23px;
+ overflow-y: hidden; 
+ padding: 0 20px;
+
 }
+@media (min-width: 1060px){
+    .card-list{
+        justify-content: center;
+    }
+}
+
+.card-list::-webkit-scrollbar{
+    background-color: #e4e4e4;
+    height: 16px;
+    
+}
+
+.card-list::-webkit-scrollbar-thumb{
+    background: #D4AA70;
+    border: none;
+    border-radius: 100px;
+}
+
+
+
+.card-rating, .card-details{
+    padding: 1em;
+}
+
+

@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import data from './data'
 
+import './index.css'
 
 
 function App() {
