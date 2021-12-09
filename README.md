@@ -8,10 +8,10 @@
 
 ## How it works
 
-*data.js file is populated with some data to simlate response from server
-*import is used and map method to map over each key from data.js 
-*After Mapping the data.js items the item is passed to props of Card component
-*Everyother component is import in App.js and ReactDOM.render is used at index.js
+* data.js file is populated with some data to simlate response from server
+* import is used and map method to map over each key from data.js 
+* After Mapping the data.js items the item is passed to props of Card component
+* Everyother component is import in App.js and ReactDOM.render is used at index.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
